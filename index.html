@@ -116,12 +116,7 @@
             storeTest(name, partnerName);
         }
 
-        // 将测试记录以注释的形式写入页面源码中
-        function storeTest(name, partnerName) {
-            let commentText = ` 测试记录：${name} ❤️ ${partnerName} - ${new Date().toLocaleString()} `;
-            let commentNode = document.createComment(commentText);
-            document.body.appendChild(commentNode);
-        }
+       
     </script>
 </body>
 </html>
